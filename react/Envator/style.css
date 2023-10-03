@@ -1,0 +1,202 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html{
+  font-size: 18px;
+}
+
+.card{
+ 
+  color:#fff ;
+  width: 50%;
+  padding: 1.5rem 2rem;
+  margin: 1rem;
+  line-height: 1.55;
+  font: 18px/1.55  'Courier New', Courier, monospace;
+  text-align: center;
+  
+ 
+ 
+  
+}/*css units we have px is an absolute value
+, em relative to the font-size of the parent element
+, rem relative to the html font-size 
+,% of the parent element
+
+*/
+/* setting dimensions with css
+card img{
+  width:100%
+  width:2rem;
+  max-width ;
+  min-width;
+  you cannot set dimensions of inline element
+  unless you change display to block or inline block;
+
+*/
+.card1{
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  line-height: 1.55;
+  font-style: italic;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.card h1{
+  font-size: 1.14rem;
+  font-weight: 900;
+  font-style: italic;
+}
+.card p{
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.card a{
+  color: aqua;
+  text-decoration: none;
+}
+.card a:hover{
+  color:rgb(170, 160, 165);
+}
+.card a:active{
+  color:rgba(170, 160, 165, 0.479);
+}
+.card p span{
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.8;
+  letter-spacing: 2px;
+ 
+}
+#card1{
+background: #990f0f;
+}
+#card2{
+  background: #9e7474;
+}
+#card3{
+  background: #220404;
+}
+/* padding accept only positve values*/
+/* margin accept both positive and negavite values*/
+.model{
+  
+  width: 50%;
+  background-color: aqua;
+  font-size: 1rem;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 2rem  1rem;
+  margin: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  align-items: center;
+  
+
+}
+.model:hover{
+  color: #0f1899;
+  border-color: #990f0f;
+  transition: 0.3s ease;
+}
+.model h1{
+  font-weight: 800;
+
+}
+.model, input {
+  margin-left:-10px ;
+  border: 1px solid black;
+
+}
+.model, p ,h2{
+  margin-left: 2rem;
+}
+form{
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 8px;
+  text-align: center;
+ 
+
+}
+form label{
+  display: block;
+}
+form .btn{
+  color: #fff;
+  background-color: #0f1899;
+  margin :2rem;
+  padding: 1rem;
+  align-items: center;
+  text-decoration: none;
+  display: block;
+  align-items: center;
+
+}
+.wrapper{
+  display: flex;
+  gap: 1rem;
+}
+.widget{
+  width: 100%;
+  background-color: #9e7474;
+  color:#fff;
+  padding: 1rem;
+  margin: 2rem;
+  height: 200px;
+  border: 1px solid black;
+}
+.widget:hover{
+  background-color: #990f0f;
+  color: aqua;
+  transition: 0.2s ease;
+}
+.learn{
+  width: 400px;
+  text-align: center;
+  border: 1px solid black;
+}
+.learn hr{
+  margin: 2rem;
+}
+.learn .feature{
+  padding: 0;
+  list-style-type: circle;
+  list-style-position: inside;
+
+}
+.learn .feature li{
+  margin-bottom: .5rem;
+}
+.learn button{
+  background-color: #0f1899;
+  color: #fff;
+  padding: 1rem;
+  margin: 2rem;
+  border: 1px solid rebeccapurple;
+  border-radius: 4px;
+  
+}
+
+header  nav{
+ 
+  background-color: #990f0f;
+}
+header nav ul{
+list-style-type: none;
+
+}
+header nav ul li{
+  display:  inline-block;
+  margin-right: 1rem;
+  
+ 
+}
+header nav ul li a{
+  font-size: 1.5rem;
+ color: white;
+}

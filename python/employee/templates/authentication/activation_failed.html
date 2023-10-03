@@ -1,0 +1,12 @@
+{% auto escape off %}
+
+Activation failed, Please try again
+
+Hello {{name}}
+
+Please confirm your email by clicking in the following link.
+
+Confirmation Link: http://{{domain}}{% url 'activate' uid64 =uid token = token %}
+
+{% end auto escape off %}
+</html>

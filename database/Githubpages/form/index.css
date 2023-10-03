@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin-left: 4px;
+  text-align:flex-start;
+}
+form{
+  background-image: url(C:/Users/ERASTUS/Desktop/Githubpages/form/istockphoto-1356364268-170667a.jpg);
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding-left: 20px;
+}
+form label{
+  display: block;
+  margin-top: 4px;
+  padding-top: 4px;
+}
+form label input{
+  font-weight: 400;
+  color: #000;
+}
+.btn{
+  margin-top: 2px;
+  padding:3px;
+  display:inline-flex;
+  border-radius: 8px;
+  background-color: blue;
+  color:white;
+  
+}
